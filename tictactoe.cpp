@@ -151,7 +151,7 @@ void AIMove(){
     
     // if there is two in a row and the third spot is open, computer plays there.
     // this is either good defense if opponent is about to win, or good offense as it wins the
-    // game if the two in the row are also AI moves
+    // game if the two in the row are also AI moves.
     
     if (checkTwo(constBoard[1], constBoard[2], constBoard[3]) != 0){
         board[checkTwo(board[1], board[2], board[3])] = 'O';
@@ -335,7 +335,7 @@ void resetBoard(){
 }
 
 void game(int selection){
-    // runs the game based on user selectio of 1 player or 2 player
+    // runs the game based on user selection of 1 player or 2 player
     // game alternates turns, prompts user, and prints board after each move
     int currentTurn = 0;
     
