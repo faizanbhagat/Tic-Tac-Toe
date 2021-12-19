@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  tictactoe.cpp
 //  TicTacToe
 //
 //  Created by Faizan Bhagat on 12/17/21.
